@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+/* h2{
+    font-family: "Playfair Display", Georgia, serif;
+} */
+@media (min-width: 1024px) {
+    .lg\:w-custom-width {
+      width: 45.333333%;
+    }
+  }
+  
+.shadow-md-dark {
+    box-shadow: 2px 4px 5px -2px #79c1ee, 0 2px 4px -1px #83a9f5;
+  }
+  

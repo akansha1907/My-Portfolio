@@ -20,7 +20,7 @@ const Home = ({ darkMode }) => {
     >
       <div className="flex flex-col items-center text-center lg:text-start lg:items-start w-full lg:w-3/4 space-y-4">
         <h1
-          className={`text-3xl md:text-4xl font-semibold  lg:text-5xl leading-tight mt-5 ${textColor}`}
+          className={`text-2xl md:text-4xl font-semibold  lg:text-5xl leading-tight mt-5 ${textColor}`}
         >
           I'm Akansha <br />
           <span style={{ color: 'tomato' }}>

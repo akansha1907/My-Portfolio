@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 dark:text-white px-6 py-20  lg:px-32 shadow-md ">
+    <footer className="bg-gray-900 text-white px-6 py-20  lg:px-32 shadow-md ">
       <div className="max-w-screen-xl mx-auto flex flex-col gap-8 lg:flex-row justify-between items-center">
         {/* Logo or Name */}
         <div className="text-3xl font-bold cursor-pointer text-center lg:text-left text-white">
@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom Text */}
-      <div className="mt-10 text-center text-sm text-gray-600 dark:text-gray-200">
+      <div className="mt-10 text-center text-sm  text-white">
         &copy; {new Date().getFullYear()} Akansha. All rights reserved.
       </div>
     </footer>

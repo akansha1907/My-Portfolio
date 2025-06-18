@@ -45,7 +45,6 @@ const Footer = () => {
             <FaHackerrank size={30} />
           </a>
           <a
-            href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-brightColor transition-all"
